@@ -22,8 +22,7 @@ before_install:
   - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
   - git submodule update --init --recursive
   - cp -rf themes/airspace-hugo/exampleSite/* ./
-  - sed '/^base/'d config.toml
-  - sed '/^title/a\baseurl = "https://luolvshi.me/hugo3/"' config.toml
+  - sed '/^base/'d config.toml && sed '/^title/a\baseurl = "https://luolvshi.me/hugo3/"' config.toml
 
 install:
   - export HUGO_VERSION=0.41
