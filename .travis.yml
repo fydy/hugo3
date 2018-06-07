@@ -21,7 +21,7 @@ git:
 before_install:
   - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
   - git submodule update --init --recursive
-  - cp -rf themes/hugo-tranquilpeak-theme/exampleSite/* ./
+  - cp -rf themes/vex-hugo/exampleSite/* ./
   - sed -i '/^base/'d config.toml
   - sed -i '/^title = "/a\baseurl = "https://luolvshi.me/hugo3/"' config.toml
 
