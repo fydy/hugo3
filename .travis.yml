@@ -27,7 +27,7 @@ before_install:
   - sed -i '/^title = "/a\baseurl = "https://luolvshi.me/hugo3/"' config.toml
 
 install:
-  - export HUGO_VERSION=0.41
+  - export HUGO_VERSION=0.42
   - sudo pip install Pygments
   - wget https://github.com/spf13/hugo/releases/download/v$HUGO_VERSION/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
   - tar xzf hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
