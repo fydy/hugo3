@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Service Mesh on ServiceMesher</title>
+    <link>https://lvshi.cf/hugo3/categories/service-mesh/</link>
+    <description>Recent content in Service Mesh on ServiceMesher</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Wed, 07 Nov 2018 14:14:01 +0800</lastBuildDate>
+    
+	<atom:link href="https://lvshi.cf/hugo3/categories/service-mesh/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cilium——具备API感知的网络和安全性管理的开源软件</title>
+      <link>https://lvshi.cf/hugo3/blog/cilium-intro/</link>
+      <pubDate>Wed, 07 Nov 2018 14:14:01 +0800</pubDate>
+      
+      <guid>https://lvshi.cf/hugo3/blog/cilium-intro/</guid>
+      <description>Cilium是一个纯开源软件，没有哪家公司提供商业化支持，也不是由某一公司开源，该软件用于透明地保护使用Linux容器管理平台（如Docke</description>
+    </item>
+    
+    <item>
+      <title>小米正式开源Istio管理面板Naftis</title>
+      <link>https://lvshi.cf/hugo3/blog/naftis-istio-dashboard-xiaomi/</link>
+      <pubDate>Thu, 25 Oct 2018 10:44:46 +0800</pubDate>
+      
+      <guid>https://lvshi.cf/hugo3/blog/naftis-istio-dashboard-xiaomi/</guid>
+      <description>用Istio治理服务时须通过istioctl或kubectl，这种方式可能存在一些问题。因此小米武汉研发中心推出Naftis，帮助用户更轻松</description>
+    </item>
+    
+    <item>
+      <title>F5公司Aspen Mesh 1.0发布，基于Istio 1.0</title>
+      <link>https://lvshi.cf/hugo3/blog/aspen-mesh-released/</link>
+      <pubDate>Mon, 10 Sep 2018 15:18:18 +0800</pubDate>
+      
+      <guid>https://lvshi.cf/hugo3/blog/aspen-mesh-released/</guid>
+      <description>Aspen Mesh这家公司隶属于F5，Aspen Mesh基于Istio 1.0开发，这个周末刚发布了1.0版本，可以申请免费试用。 Aspen Mesh对比Ist</description>
+    </item>
+    
+    <item>
+      <title>企业级服务网格架构之路解读—Service Mesh在会话层解耦</title>
+      <link>https://lvshi.cf/hugo3/blog/the-enterprise-path-to-service-mesh-architectures/</link>
+      <pubDate>Mon, 20 Aug 2018 11:38:59 +0800</pubDate>
+      
+      <guid>https://lvshi.cf/hugo3/blog/the-enterprise-path-to-service-mesh-architectures/</guid>
+      <description>追本溯源，Service Mesh实际上是一种SDN，等同于OSI模型中的会话层。 每一次技术变革，必然要导致生产力和生产关系的变革，我们看到这</description>
+    </item>
+    
+    <item>
+      <title>蚂蚁金服开源Go语言版Service Mesh数据平面SOFAMosn性能报告</title>
+      <link>https://lvshi.cf/hugo3/blog/sofa-mosn-performance-report-0.1.0/</link>
+      <pubDate>Mon, 20 Aug 2018 11:24:33 +0800</pubDate>
+      
+      <guid>https://lvshi.cf/hugo3/blog/sofa-mosn-performance-report-0.1.0/</guid>
+      <description>以下的的性能报告为 SOFAMosn 0.1.0 在做 Bolt 与 HTTP1.x 协议的纯 TCP 转发上与 envoy 的一些性能对比数据，主要表现在 QPS、RTT、失败率/成功率等。 本文原文来自：https</description>
+    </item>
+    
+    <item>
+      <title>使用Cilium增强Istio—通过Socket感知BPF程序</title>
+      <link>https://lvshi.cf/hugo3/blog/how-cilium-enhances-istio-with-socket-aware-bpf-programs/</link>
+      <pubDate>Mon, 13 Aug 2018 16:19:59 +0800</pubDate>
+      
+      <guid>https://lvshi.cf/hugo3/blog/how-cilium-enhances-istio-with-socket-aware-bpf-programs/</guid>
+      <description>8月1日Istio 1.0 发布，Cilium社区感谢所有Istio贡献者为此付出的巨大努力。我们很幸运能够参与社区活动，为Istio做出贡献，并帮</description>
+    </item>
+    
+    <item>
+      <title>Service Mesh数据平面SOFAMosn深层揭秘</title>
+      <link>https://lvshi.cf/hugo3/blog/sofa-mosn-deep-dive/</link>
+      <pubDate>Thu, 02 Aug 2018 14:31:43 +0800</pubDate>
+      
+      <guid>https://lvshi.cf/hugo3/blog/sofa-mosn-deep-dive/</guid>
+      <description>SOFAMosn GitHub地址：https://github.com/alipay/sofa-mosn 本文作者：朵晓东，花名奕杉，蚂蚁金服高级技术专家，</description>
+    </item>
+    
+    <item>
+      <title>Service Mesh深度学习系列part3—istio源码分析之pilot-discovery模块分析（续）</title>
+      <link>https://lvshi.cf/hugo3/blog/istio-service-mesh-source-code-pilot-discovery-module-deepin-part2/</link>
+      <pubDate>Sat, 28 Jul 2018 17:49:21 +0800</pubDate>
+      
+      <guid>https://lvshi.cf/hugo3/blog/istio-service-mesh-source-code-pilot-discovery-module-deepin-part2/</guid>
+      <description>本文为Service Mesh深度学习系列之一： Service Mesh深度学习系列part1—istio源码分析之pilot-agent模块分析 Service Mesh</description>
+    </item>
+    
+    <item>
+      <title>Service Mesh深度学习系列part2—istio源码分析之pilot-discovery模块分析</title>
+      <link>https://lvshi.cf/hugo3/blog/istio-service-mesh-source-code-pilot-discovery-module-deepin/</link>
+      <pubDate>Tue, 17 Jul 2018 17:32:31 +0800</pubDate>
+      
+      <guid>https://lvshi.cf/hugo3/blog/istio-service-mesh-source-code-pilot-discovery-module-deepin/</guid>
+      <description>本文分析的istio代码版本为0.8.0，commit为0cd8d67，commit时间为2018年6月18日。 本文为Service Mesh</description>
+    </item>
+    
+    <item>
+      <title>Service Mesh深度学习系列part1—istio源码分析之pilot-agent模块分析</title>
+      <link>https://lvshi.cf/hugo3/blog/istio-service-mesh-source-code-pilot-agent-deepin/</link>
+      <pubDate>Wed, 11 Jul 2018 14:24:24 +0800</pubDate>
+      
+      <guid>https://lvshi.cf/hugo3/blog/istio-service-mesh-source-code-pilot-agent-deepin/</guid>
+      <description>本文分析的istio代码版本为0.8.0，commit为0cd8d67，commit时间为2018年6月18日。 本文为Service Mesh</description>
+    </item>
+    
+    <item>
+      <title>Conduit 0.5发布—以及R.I.P. Conduit</title>
+      <link>https://lvshi.cf/hugo3/blog/rip-conduit/</link>
+      <pubDate>Mon, 09 Jul 2018 12:19:53 +0800</pubDate>
+      
+      <guid>https://lvshi.cf/hugo3/blog/rip-conduit/</guid>
+      <description>本文转载自伪架构师的博客。 7 月 6 日，Linkerd 博客再次更新，宣布 Conduit 0.5 发布：在翻炒了无数次 Prometheus 支持的冷饭之后，终于发布了新的功能 —— TLS 支持。</description>
+    </item>
+    
+    <item>
+      <title>轻量Service Mesh在Ucloud的实践</title>
+      <link>https://lvshi.cf/hugo3/blog/lightweight-service-mesh-practice-in-ucloud/</link>
+      <pubDate>Thu, 14 Jun 2018 10:43:16 +0800</pubDate>
+      
+      <guid>https://lvshi.cf/hugo3/blog/lightweight-service-mesh-practice-in-ucloud/</guid>
+      <description>UCloud 作为一家To B的公有云服务商，我们的CTO莫显峰经常说：“研发团队最首要的任务是提供稳定的服务，然后才是提供符合客户需求的、易用和低成本的</description>
+    </item>
+    
+    <item>
+      <title>一个商用级Service Mesh服务的设计之道</title>
+      <link>https://lvshi.cf/hugo3/blog/the-desigin-patterns-for-a-commercial-service-mesh/</link>
+      <pubDate>Wed, 30 May 2018 15:00:22 +0800</pubDate>
+      
+      <guid>https://lvshi.cf/hugo3/blog/the-desigin-patterns-for-a-commercial-service-mesh/</guid>
+      <description>作者介绍：田晓亮，8年软件行业经验，曾就职于三星，2012年进入云计算领域，对PaaS，DevOps，APM有深入的研究和实践经验，方案支撑</description>
+    </item>
+    
+    <item>
+      <title>深入解读Service Mesh背后的技术细节</title>
+      <link>https://lvshi.cf/hugo3/blog/deepin-service-mesh-tech-details/</link>
+      <pubDate>Wed, 23 May 2018 16:09:57 +0800</pubDate>
+      
+      <guid>https://lvshi.cf/hugo3/blog/deepin-service-mesh-tech-details/</guid>
+      <description>在Kubernetes称为容器编排的标准之后，Service Mesh开始火了起来，但是很多文章讲概念的多，讲技术细节的少，所以专门写一篇文章</description>
+    </item>
+    
+    <item>
+      <title>Service Mesh：重塑微服务市场</title>
+      <link>https://lvshi.cf/hugo3/blog/service-mesh-rebuild-microservice-market/</link>
+      <pubDate>Mon, 21 May 2018 21:48:05 +0800</pubDate>
+      
+      <guid>https://lvshi.cf/hugo3/blog/service-mesh-rebuild-microservice-market/</guid>
+      <description>今天我们不谈技术，不谈架构，也不谈具体的产品，我们来聊一聊在未来一两年之内，Service Mesh技术会在微服务相关的市场带来什么样的变化？</description>
+    </item>
+    
+  </channel>
+</rss>

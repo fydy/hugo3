@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Function on ServiceMesher</title>
+    <link>https://lvshi.cf/hugo3/tags/function/</link>
+    <description>Recent content in Function on ServiceMesher</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Wed, 04 Jul 2018 17:44:01 +0800</lastBuildDate>
+    
+	<atom:link href="https://lvshi.cf/hugo3/tags/function/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>使用Istio控制Serverless架构Fn Project中的函数间流量路由</title>
+      <link>https://lvshi.cf/hugo3/blog/traffic-routing-between-fn-functions-using-fn-project-and-istio-fd/</link>
+      <pubDate>Wed, 04 Jul 2018 17:44:01 +0800</pubDate>
+      
+      <guid>https://lvshi.cf/hugo3/blog/traffic-routing-between-fn-functions-using-fn-project-and-istio-fd/</guid>
+      <description>在本文中，我将解释如何在 Fn 函数之间使用 Istio 服务网格实现基于版本的流量路由。 我将首先解释 Istio 路由的基础知识以及将 Fn 部署和运行在 Kubernetes 上的方式。最后，我</description>
+    </item>
+    
+  </channel>
+</rss>

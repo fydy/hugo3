@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ui on ServiceMesher</title>
+    <link>https://lvshi.cf/hugo3/tags/ui/</link>
+    <description>Recent content in Ui on ServiceMesher</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Thu, 25 Oct 2018 10:44:46 +0800</lastBuildDate>
+    
+	<atom:link href="https://lvshi.cf/hugo3/tags/ui/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>小米正式开源Istio管理面板Naftis</title>
+      <link>https://lvshi.cf/hugo3/blog/naftis-istio-dashboard-xiaomi/</link>
+      <pubDate>Thu, 25 Oct 2018 10:44:46 +0800</pubDate>
+      
+      <guid>https://lvshi.cf/hugo3/blog/naftis-istio-dashboard-xiaomi/</guid>
+      <description>用Istio治理服务时须通过istioctl或kubectl，这种方式可能存在一些问题。因此小米武汉研发中心推出Naftis，帮助用户更轻松</description>
+    </item>
+    
+    <item>
+      <title>istio-ui——一款开源的简易Istio UI的介绍和使用教程</title>
+      <link>https://lvshi.cf/hugo3/blog/istio-ui-tutorial/</link>
+      <pubDate>Mon, 22 Oct 2018 19:33:39 +0800</pubDate>
+      
+      <guid>https://lvshi.cf/hugo3/blog/istio-ui-tutorial/</guid>
+      <description>由来 ​ 开发istio-ui是由于运维：到时候线上几百个istio配置文件管理会很麻烦。其实在开始接触istio的时候，我们其他同学就有这样的</description>
+    </item>
+    
+  </channel>
+</rss>

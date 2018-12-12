@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rate Limiting on ServiceMesher</title>
+    <link>https://lvshi.cf/hugo3/categories/rate-limiting/</link>
+    <description>Recent content in Rate Limiting on ServiceMesher</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Wed, 11 Jul 2018 15:32:40 +0800</lastBuildDate>
+    
+	<atom:link href="https://lvshi.cf/hugo3/categories/rate-limiting/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>速率限制系列part4—为Ambassador API网关设计速率限制服务</title>
+      <link>https://lvshi.cf/hugo3/blog/designing-a-rate-limiting-service-for-ambassador-part-4/</link>
+      <pubDate>Wed, 11 Jul 2018 15:32:40 +0800</pubDate>
+      
+      <guid>https://lvshi.cf/hugo3/blog/designing-a-rate-limiting-service-for-ambassador-part-4/</guid>
+      <description>先前关于速率限制文章主要描述如何构建并部署基于Java的速率限制服务，该服务可以和开源的Ambassador API网关以及Kubernete</description>
+    </item>
+    
+    <item>
+      <title>速率限制part3—基于Ambassador API网关实现Java速率限制服务</title>
+      <link>https://lvshi.cf/hugo3/blog/implementing-a-java-rate-limiting-service-for-the-ambassador-api-gateway-part3/</link>
+      <pubDate>Wed, 04 Jul 2018 12:26:02 +0800</pubDate>
+      
+      <guid>https://lvshi.cf/hugo3/blog/implementing-a-java-rate-limiting-service-for-the-ambassador-api-gateway-part3/</guid>
+      <description>基于Kubernetes云原生的Ambassador API网关所提供的速率限制功能是完全可定制的，其允许任何实现gRPC服务端点的服务自行决</description>
+    </item>
+    
+    <item>
+      <title>速率限制part2—作用于API网关的速率限制</title>
+      <link>https://lvshi.cf/hugo3/blog/rate-limiting-for-api-gateway-daniel-bryant-part2/</link>
+      <pubDate>Tue, 03 Jul 2018 12:11:49 +0800</pubDate>
+      
+      <guid>https://lvshi.cf/hugo3/blog/rate-limiting-for-api-gateway-daniel-bryant-part2/</guid>
+      <description>在本速率限制系列的第一篇文章中，介绍了实施速率限制的动机，并讨论了几种实施方案（取决于你是否同时作为通信的发送端和接收端）以及相关的权衡。本</description>
+    </item>
+    
+    <item>
+      <title>速率限制part1—分布式系统的一个实用工具</title>
+      <link>https://lvshi.cf/hugo3/blog/rate-limiting-a-useful-tool-with-distributed-systems-part1/</link>
+      <pubDate>Fri, 29 Jun 2018 15:51:19 +0800</pubDate>
+      
+      <guid>https://lvshi.cf/hugo3/blog/rate-limiting-a-useful-tool-with-distributed-systems-part1/</guid>
+      <description>速率限制—分布式系统的一个实用工具part1 在计算领域，速率限制通常用于控制服务发起或消耗的操作速率，或者是请求发送或接收的流量。如果你有一</description>
+    </item>
+    
+  </channel>
+</rss>

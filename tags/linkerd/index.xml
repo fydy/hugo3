@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linkerd on ServiceMesher</title>
+    <link>https://lvshi.cf/hugo3/tags/linkerd/</link>
+    <description>Recent content in Linkerd on ServiceMesher</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Wed, 19 Sep 2018 10:18:54 +0800</lastBuildDate>
+    
+	<atom:link href="https://lvshi.cf/hugo3/tags/linkerd/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Linkerd 2.0 GA版本发布</title>
+      <link>https://lvshi.cf/hugo3/blog/linkerd-2-0-in-general-availability/</link>
+      <pubDate>Wed, 19 Sep 2018 10:18:54 +0800</pubDate>
+      
+      <guid>https://lvshi.cf/hugo3/blog/linkerd-2-0-in-general-availability/</guid>
+      <description>今天，云原生计算基金会（CNCF）和Linkerd的维护者很高兴地宣布Linkerd 2.0 GA发布。 2.0版本为Linkerd带来了性能、资源消</description>
+    </item>
+    
+    <item>
+      <title>Conduit 0.5发布—以及R.I.P. Conduit</title>
+      <link>https://lvshi.cf/hugo3/blog/rip-conduit/</link>
+      <pubDate>Mon, 09 Jul 2018 12:19:53 +0800</pubDate>
+      
+      <guid>https://lvshi.cf/hugo3/blog/rip-conduit/</guid>
+      <description>本文转载自伪架构师的博客。 7 月 6 日，Linkerd 博客再次更新，宣布 Conduit 0.5 发布：在翻炒了无数次 Prometheus 支持的冷饭之后，终于发布了新的功能 —— TLS 支持。</description>
+    </item>
+    
+    <item>
+      <title>WePay如何使用Linkerd作为服务网格代理</title>
+      <link>https://lvshi.cf/hugo3/blog/using-linkerd-as-a-service-mesh-proxy-at-wepay/</link>
+      <pubDate>Tue, 19 Jun 2018 11:42:58 +0800</pubDate>
+      
+      <guid>https://lvshi.cf/hugo3/blog/using-linkerd-as-a-service-mesh-proxy-at-wepay/</guid>
+      <description>在接下来的几个月中，我们将撰写一系列文章来记录从传统负载均衡器到谷歌Kubernetes引擎（GKE）之上服务网格的WePay工程化之路。 在</description>
+    </item>
+    
+  </channel>
+</rss>
