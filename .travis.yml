@@ -24,7 +24,7 @@ before_install:
 #  - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
 #  - git submodule update --init --recursive
 #  - cp -rf themes/hugo-universal-theme/exampleSite/* ./
-#  - git clone https://github.com/fydy/hugo-universal.git &&
+  - git clone https://github.com/fydy/hugo-universal.git
 #  - sed -i '/^base/'d config.toml
 #  - sed -i '/^title = "/a\baseurl = "https://lvshi.cf/hugo3/"' config.toml
 
