@@ -3,8 +3,6 @@ language: go
 go:
   - 1.10.2
 
-sudo: required
-
 before_install:
   - git clone https://github.com/fydy/hugo-universal.git
 
