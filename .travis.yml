@@ -3,9 +3,9 @@ language: go
 go:
   - 1.10.2
 
-branches:
-  only:
-    - source
+# branches:
+#  only:
+#    - source
 
 env:
  global:
@@ -24,33 +24,35 @@ before_install:
 #  - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
 #  - git submodule update --init --recursive
 #  - cp -rf themes/hugo-universal-theme/exampleSite/* ./
-  - git clone https://github.com/fydy/hugo-universal.git && cd hugo-universal
-  - sed -i '/^base/'d config.toml
-  - sed -i '/^title = "/a\baseurl = "https://lvshi.cf/hugo3/"' config.toml
+#  - git clone https://github.com/fydy/hugo-universal.git &&
+#  - sed -i '/^base/'d config.toml
+#  - sed -i '/^title = "/a\baseurl = "https://lvshi.cf/hugo3/"' config.toml
 
-install:
-  - export HUGO_VERSION=0.42
-  - sudo pip install Pygments
-  - wget https://github.com/spf13/hugo/releases/download/v$HUGO_VERSION/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
-  - tar xzf hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
-  - chmod a+x hugo
+# install:
+#  - export HUGO_VERSION=0.42
+#  - sudo pip install Pygments
+#  - wget https://github.com/spf13/hugo/releases/download/v$HUGO_VERSION/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
+#  - tar xzf hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
+#  - chmod a+x hugo
 
-script:
-  - ./hugo
+# script:
+#  - ./hugo
 
 after_script:
-  - cd ./public
+  - cd ./hugo-universal
+  - rm -rf .git
   - git init
   - git config user.name "fydy"
   - git config user.email "edu@yuns.me"
   - git add .
   - git commit -m "Update docs"
-  - git push --quiet --force https://$hugo3@github.com/fydy/hugo3.git master
-  - git clone -b source https://github.com/fydy/hugo3.git
+  - git checkout -b gh-pages
+  - git push --quiet --force https://$hugo3@github.com/fydy/hugo3.git gh-pages
+#  - git clone -b source https://github.com/fydy/hugo3.git
 # Coding Pages
-  - git push --force --quiet "https://deweke:${CO_TOKEN}@${CO_REF}" master:master
+#  - git push --force --quiet "https://deweke:${CO_TOKEN}@${CO_REF}" master:master
 
-env:
- global:
+# env:
+# global:
    # Coding Pages
-  - CO_REF: git.coding.net/deweke/hugo.git
+#  - CO_REF: git.coding.net/deweke/hugo.git
