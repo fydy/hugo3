@@ -3,42 +3,12 @@ language: go
 go:
   - 1.10.2
 
-# branches:
-#  only:
-#    - source
-
-env:
- global:
-   - GH_REF: github.com/fydy/hugo3.git
-
-
 sudo: required
 
-git:
-  submodules: false
-
-# Use sed to replace the SSH URL with the public URL, then initialize submodules
 before_install:
-#  - git submodule add https://github.com/yoshiharuyamashita/blackburn.git themes/blackburn
-#  - git submodule add https://github.com/fydy/hugo-universal.git themes/hugo-universal-theme
-#  - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
-#  - git submodule update --init --recursive
-#  - cp -rf themes/hugo-universal-theme/exampleSite/* ./
   - git clone https://github.com/fydy/hugo-universal.git
-#  - sed -i '/^base/'d config.toml
-#  - sed -i '/^title = "/a\baseurl = "https://lvshi.cf/hugo3/"' config.toml
 
-# install:
-#  - export HUGO_VERSION=0.42
-#  - sudo pip install Pygments
-#  - wget https://github.com/spf13/hugo/releases/download/v$HUGO_VERSION/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
-#  - tar xzf hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
-#  - chmod a+x hugo
-
-# script:
-#  - ./hugo
-
-after_script:
+after_success:
   - cd ./hugo-universal
   - rm -rf .git
   - git init
@@ -48,11 +18,3 @@ after_script:
   - git commit -m "Update docs"
   - git checkout -b gh-pages
   - git push --quiet --force https://$hugo3@github.com/fydy/hugo3.git gh-pages
-#  - git clone -b source https://github.com/fydy/hugo3.git
-# Coding Pages
-#  - git push --force --quiet "https://deweke:${CO_TOKEN}@${CO_REF}" master:master
-
-# env:
-# global:
-   # Coding Pages
-#  - CO_REF: git.coding.net/deweke/hugo.git
